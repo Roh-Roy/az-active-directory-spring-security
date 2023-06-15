@@ -41,7 +41,7 @@ b)It will also create a sample code which you can only use for authentication by
  server.ssl.key-store-password=password
  server.ssl.key-alias=testCert
  
- 9) Replace clientId, clientsecret,tenantid in application properties. Also add a return url in the registration - for me it showed -- https://localhost:8443/login --- Login is default endpoint of azure and also similar /logout function is there
+ 9) Replace clientId, clientsecret,tenantid in application properties. Also add a return url in the **registration in portal inside App Registration--> Authentication->Add redirect URI** - for me it showed -- https://localhost:8443/login --- Login is default endpoint of azure and also similar /logout function is there
  
  10) Step 8 is mentioned in Azure portal, now mvn clean install and run the app
  
